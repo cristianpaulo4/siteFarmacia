@@ -1,0 +1,42 @@
+#menu{
+	background-color: red;
+	width: 220px;
+	height: 1000px;
+	float: left;
+	position: fixed;
+
+
+}
+
+
+#tela{
+	margin-left: 220px;
+	float: left;
+	--background-color: blue;
+	height: 1000px;
+
+}
+
+
+.produto{
+	padding: 5px;	
+
+}
+
+
+#produto{
+	margin: 5px;
+	float: left;
+
+}
+
+
+#barra{		
+	margin-left: 230px;
+	margin-top: -1px;
+	position: fixed;
+	--background-color: green;
+	--height: 100px;
+	width: 100%
+
+}

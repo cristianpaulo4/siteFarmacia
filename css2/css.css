@@ -1,0 +1,70 @@
+#menu {
+   position: fixed;
+   left:0;
+   top: 0;
+   width: 200px;
+}
+
+
+
+#coluna{	
+	position: fixed;
+	background-color: #EE0C0C;
+	width: 200px;
+	height: 1500px;
+	float: left;
+}
+
+#coluna2{	
+	margin-left: 230px;	
+	margin-top: 80px;
+	background-color: green;
+	
+}
+
+
+
+#barra{
+	position: fixed;
+	float: right;	
+	right: 5px;
+	left: 230px;	
+}
+
+
+.direito{	
+	margin-top: 60px;
+	--margin-left: 230px;	
+	--margin-left: 500px;	
+	float: left;
+	width: 87.7%;
+	background-color: blue;
+
+}
+
+
+#remedio1{	
+	padding: 15px;	
+	float: left;
+	--background-color: red;
+	
+
+}
+
+#remedio2{		
+	padding: 15px;
+	float: left;
+	background-color: blue;
+	--width: 600px;
+}
+
+
+
+#menu2{
+	background-color: red;
+	width: 50%;
+
+
+
+
+}
