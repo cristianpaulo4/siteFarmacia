@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>	
-	<link rel="stylesheet" type="text/css" href="css/css.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>		
+	
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -11,18 +10,14 @@
 
 	<!-- -->
 	<meta charset="utf-8">
-  	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  	 <meta name="description" content="">
-     <meta name="author" content="">
+  	 
   	<title>Farmacia Popular</title>
   <!-- Custom fonts for this template-->
   	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  	<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-  <!-- Custom styles for this template-->
-  	<link href="css/sb-admin-2.min.css" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">  
   <!-- MEU CSS -->
-  
+    <link rel="stylesheet" type="text/css" href="./css/css.css"> 
+    <link href="css/sb-admin-2.min.css" rel="stylesheet"> 
 
 
 
@@ -30,14 +25,16 @@
 <body>
 
 
-	<div id="menu">
+
+
+	<div>
 		<!-- INICIO MENU LATERAL -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" style="background: #DF0101 ; border-color: #DF0101; position:fixed; width: 250px;">
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" style="background: #DF0101 ; border-color: #DF0101; width: 230px; float: left; position: fixed;">
 
       <!-- Sidebar - Brand -->
       	<a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
       	<div>
-          <img src="http://www.bigfral.com.br/images/icon-farmaciapopular.png" style="width: 80px">
+          <img src="http://www.bigfral.com.br/images/icon-farmaciapopular.png" style="width: 50%;">
       	</div>
         <div class="sidebar-brand-text mx-3">Farmacia Popular</div>
       	</a>
@@ -121,6 +118,10 @@
 	</div>
 
 
+
+
+
+
   <!-- INICIO PRODUTO-->
 	<div id="tela">
 		<br>
@@ -129,9 +130,10 @@
   		<br>
   		<br>
 		<div class="produto">			
-			<?php		
+			
+      <?php		
   			for ($i=0; $i <10 ; $i++) {     
-    			echo "<div id='produto'>
+    			echo "<div id='pro'>
     			<div class='card' style='width: 18rem;'>
       			<img class='card-img-top' src='https://s3-sa-east-1.amazonaws.com/assets.farmaciadoleme/client_assets/uploads/galleries/abbott/IMAGEM-CAIXA-GENERICOS.png' alt='Imagem de capa do card'>
       			<div class='card-body'>
@@ -146,23 +148,14 @@
 
   ?>
 
-	</div>	
-	</div>
-  <!-- FIM PRODUTO-->
+   <!-- FIM PRODUTO-->
 
+    <!-- INICIO DA BARRA -->
 
+  <div id="barra">
+      <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
-
-  <!-- INICIO BARRA-->
-  <div>  
-
-  <div id="barra" style="width: 100%">
-  	<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
-  		 <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-            <i class="fa fa-bars"></i>
-          </button>
-
+        
 
           <!-- Topbar Search -->
           <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
@@ -290,39 +283,14 @@
 
           </ul>
 
-      
-
-          
-
-  	</nav>
-
-	
-
-  </div>  	 
-
-  </div>
-  <!-- FIM DA BARRA-->
+        </nav>
+    </div>
+	</div>	
  
+
+	</div>
+    <!-- INICIO DA BARRA -->
   
-  		
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-			
-
-
-
 
 </body>
 </html>
